@@ -65,7 +65,7 @@ public class RPCAPI {
 		}
 	}
 	
-	public void addTorrent(final String downloadDir, final String filename) throws URISyntaxException, ClientProtocolException, IOException {
+	public void addTorrent(final String filename) throws URISyntaxException, ClientProtocolException, IOException {
 		LOG.info("Starting to add Torrent :" + filename);
 		final HttpClient client = getHttpClient();
 		
