@@ -89,4 +89,18 @@
 			<version>2.1.1</version>
 		</dependency>
 	</dependencies>
+	
+	<distributionManagement>
+		<snapshotRepository>
+			<id>snapshots</id>
+			<name>nas.home-snapshots</name>
+			<url>http://nas.home:8081/artifactory/nas-snapshot</url>
+		</snapshotRepository>
+
+		<repository>
+			<id>releases</id>
+			<name>nas.home-releases</name>
+			<url>http://nas.home:8081/artifactory/nas-release</url>
+		</repository>
+	</distributionManagement>
 </project>
